@@ -6,7 +6,7 @@
   <title>JSProgress · Bibliothèque d'APK</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --accent: #4c85ff;
@@ -27,11 +27,11 @@
     html, body {
       margin: 0;
       padding: 0;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
       background: radial-gradient(circle at 20% 20%, rgba(76, 133, 255, 0.15), transparent 55%),
                   radial-gradient(circle at 80% 0%, rgba(111, 66, 193, 0.18), transparent 45%),
                   linear-gradient(135deg, #02030a 0%, #060912 45%, #05070f 100%);
-      color: var(--text-primary);
+      color: var(--text-primary, #f4f7ff);
       min-height: 100vh;
     }
 
@@ -91,7 +91,7 @@
     .tagline {
       font-size: 18px;
       font-weight: 400;
-      color: var(--text-secondary);
+      color: var(--text-secondary, #a3b0d6);
     }
 
     main {
@@ -112,7 +112,7 @@
 
     .intro p {
       margin: 0;
-      color: var(--text-secondary);
+      color: var(--text-secondary, #a3b0d6);
       line-height: 1.6;
     }
 
@@ -159,7 +159,7 @@
     }
 
     .apk-card .meta {
-      color: var(--text-secondary);
+      color: var(--text-secondary, #a3b0d6);
       font-size: 14px;
       margin-bottom: 18px;
     }
@@ -177,7 +177,7 @@
       padding: 12px 18px;
       border-radius: 999px;
       background: linear-gradient(135deg, #4c85ff 0%, #6f42c1 100%);
-      color: var(--text-primary);
+      color: var(--text-primary, #f4f7ff);
       text-decoration: none;
       font-weight: 500;
       letter-spacing: 0.3px;
@@ -195,7 +195,7 @@
       border-radius: 18px;
       border: 1px dashed rgba(93, 162, 255, 0.35);
       background: rgba(10, 16, 30, 0.6);
-      color: var(--text-secondary);
+      color: var(--text-secondary, #a3b0d6);
       text-align: center;
       line-height: 1.5;
     }
@@ -236,7 +236,7 @@
         <h1>Bibliothèque d'APK JSProgress</h1>
         <p>
           Retrouvez ici les dernières applications Android signées JSProgress.
-          Ajoutez vos fichiers <span style="color: var(--accent); font-weight: 500;">.apk</span> dans ce dossier
+          Ajoutez vos fichiers <span style="color: var(--accent, #4c85ff); font-weight: 500;">.apk</span> dans ce dossier
           et complétez la liste ci-dessous pour permettre le téléchargement direct depuis le site.
         </p>
       </section>
